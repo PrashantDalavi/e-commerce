@@ -1,24 +1,12 @@
-# README
+This is my website for e-commerce site. and it will be updated as the progress goes on
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+topics covered presently.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. HTML5 
+2. CSS3 
+3. Bootstrap
+4. JavaScript
+5. jQuery
+6. GitHub and Version Control
+7. Ruby
+8. Rails
