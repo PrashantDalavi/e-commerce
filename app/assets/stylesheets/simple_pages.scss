@@ -22,8 +22,28 @@ html, body {
   /* .push must be the same height as footer */
     height: 60px; 
     text-align: center;
-    padding-top: 20px;
+    padding-top: 60px;
 }
-.site-footer {
-  background: orange;
+
+.IndexTitle h1{
+    padding-top: 70px;
+}
+
+.AboutTitle h1{
+    padding-top: 70px;
+}
+
+.ContactTitle h1{
+    padding-top: 70px;
+}
+
+#notice {
+padding-top: 70px;
+}
+
+.navbar-nav li{
+    display:block;
+    padding-bottom: 20px;
+    padding-left: 7px;
+    padding-right: 10px;
 }
