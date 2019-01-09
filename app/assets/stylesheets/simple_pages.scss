@@ -25,26 +25,17 @@ html, body {
     padding-top: 60px;
 }
 
-.IndexTitle h1{
-    padding-top: 70px;
-}
-
-.AboutTitle h1{
-    padding-top: 70px;
-}
-
-.ContactTitle h1{
-    padding-top: 70px;
-}
-
-#notice {
-padding-top: 70px;
-}
-
 .navbar-nav li{
     display:block;
     padding-left: 7px;
     padding-right: 10px;
+}
+
+.navbar-nav li:hover{
+    text-decoration: none!important;
+    background-color: white!important;
+    font-size: 20px;
+    font-weight: 450;
 }
 
 .img-fluid{
@@ -141,4 +132,34 @@ padding-top: 70px;
     color: black;
     text-decoration: none;
 }
-  
+
+.notice{
+    padding-top: 20px;
+}
+
+// styling for devise sign in page 
+.devise_login{
+    border-radius: 10px;
+    
+    height: 30px;
+}
+.devise_login:hover{
+    background-color: black;
+    color: white;
+}
+
+.email1{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.psw1{
+    height: 30px;
+    border-radius: 10px;
+}
+
+// styling for sign up page in devise
+.psw2{
+    height: 30px;
+    border-radius: 10px;
+}
