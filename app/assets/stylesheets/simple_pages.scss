@@ -178,10 +178,29 @@ h2{
 
 // styling of the product show page 
 .product_show{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 10%;
     
 }
 .comment_body{
     padding-top: 20px;
 }
+
+// styling pagination
+.pagination{
+   
+    font-size: 18px;
+    padding-top: 30px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .pagination {
+      font-size: 18px;
+      margin-left: 15%;
+      padding-top: 30px;
+    }
+}
+@media only screen and (min-width: 768px)  { .pagination{ margin-left: 40%; } }
+
+@media only screen and (min-width: 1024px)  { .pagination{ margin-left: 40%; } }
