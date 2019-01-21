@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Email Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+</html>
+
+<body style="margin: 0; padding: 0;">
+ <table border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
+  <tr>
+   <td>
+    <%= image_tag("email.jpg", class: "img-fluid", height:"230", width: "600")%>
+    </td>
+  </tr>
+
+   <tr>
+   <td style="padding: 40px 30px 40px 30px;">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+    <td style="color: #153643; font-family: Arial, sans-serif; font-size: 24px;">
+   <b> Thank you for Contacting Biker Shop. </b>
+    </td>
+    </tr>
+    <tr>
+    <td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+    Below is the content of your message. please write us again in case you have more questions.<br>
+    <%= @message %>
+    </td>
+    </tr>
+    <tr>
+    <td>
+  
+   <table border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+  <td width="260" valign="top">
+   <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+     <td>
+       <%= image_tag("left.gif", class: "img-fluid", height:"140", width: "100%")%>
+     </td>
+    </tr>
+    <tr>
+     <td style="padding: 25px 0 0 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+      Biker's Shop<br>
+      Taro strasse 16<br>
+      Leipzig-04103<br>
+      Saxony<br>
+      contact: (+49)17667574838<br>
+     </td>
+    </tr>
+   </table>
+  </td>
+  <td style="font-size: 0; line-height: 0;" width="20">
+   &nbsp;
+  </td>
+  <td width="260" valign="top">
+   <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+     <td>
+       <%= image_tag("right.gif", class: "img-fluid", height:"140", width: "100%")%>
+     </td>
+    </tr>
+    <tr>
+     <td style="padding: 25px 0 0 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+      Our Executives are workign around the clock to reach out to our customer's satisfaction. your
+      questions will be answered and it might take up to 3 work days. please be patient and if there 
+      is any emergency situation then please reach out to us through our customer care number.
+      we are glad we could help you.
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+
+   <tr>
+   <td bgcolor="#8D9999" style="padding: 30px 30px 30px 30px;">
+    
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td width= "75%" style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;">
+           &reg; Biker's shop, Leipzig 2019<br/>
+            <a href="#" style="color: #ffffff;"><font color="#ffffff">Unsubscribe</font></a> to this newsletter instantly
+        </td>
+        
+          
+        <td align="right">
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="25%">
+                  <a href="http://www.twitter.com/">
+                    <%= image_tag("tw.gif", class:"img-fluid", size:"38", border: "0", display: "block")%>
+                  </a>
+                </td>
+                <td style="font-size: 0; line-height: 0;" width="20">&nbsp;</td>
+                <td>
+                  <a href="http://www.twitter.com/">
+                    <%= image_tag("fb.gif", class:"img-fluid", size:"38", border: "0", display: "block")%>
+                  </a>
+                </td>
+              </tr>
+            </table>
+        </td>
+
+        
+      </tr>
+    </table>
+
+    </td>
+    </tr>
+ </table>
+</body>
