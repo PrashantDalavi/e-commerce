@@ -1,6 +1,7 @@
+# frozen_string_literal: true
+
 class SimplePagesController < ApplicationController
-  def index
-  end
+  def index; end
 
   def landing_page
     @products = Product.limit(3)
@@ -13,4 +14,3 @@ class SimplePagesController < ApplicationController
     UserMailer.contact_form(@email, @name, @message).deliver_now
    end
 end
-
