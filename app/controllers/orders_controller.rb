@@ -10,9 +10,15 @@ class OrdersController < ApplicationController
     @order = Order.find(params[:id])
   end
 
-  def new; end
+  def new; 
+  
+  end
 
-  def create; end
+  def create; 
+  
+  end
 
-  def destroy; end
+  def destroy; 
+  
+  end
 end
